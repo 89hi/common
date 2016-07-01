@@ -1,3 +1,7 @@
+/**
+ * by mochen
+ * 2016-7-1 16:04:26
+ */
 'use strict';
 
 module.exports = function(url) {

@@ -1,3 +1,7 @@
+/**
+ * by mochen
+ * 2016-7-1 16:04:43
+ */
 'use strict';
 
 var parseUrl = require('./index.js');
