@@ -2,7 +2,7 @@
 
 ### Modules List（模块列表）
 - [ParseUrl](./parseUrl) (将URL参数转化为JSON对象)
-
+- [DateUtil](./dateUtil) (将日期值按格式转换)
 ### How to contribute（如何贡献代码）
 
 ```bash

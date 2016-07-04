@@ -4,4 +4,4 @@
  */
 'use strict';
 
-require('../parseUrl/index.test');
+require('../dateUtil/index.test');
