@@ -6,20 +6,22 @@
 
 var colors = require('colors');
 
-var ignore = ["^\\.", "^_", "node_modules"];
+var ignore = [];
 
 var fs = require('fs'),
   path = require('path'),
 
-  ROOT = path.dirname(__dirname);
+  ROOT = path.dirname(__dirname),
 
-var dirs = filterDir(fs.readdirSync(ROOT), ignore);
+  libPath = path.resolve(ROOT, 'lib');
+
+var dirs = filterDir(fs.readdirSync(libPath), ignore);
 
 run(dirs);
 
 function run(dirs) {
   dirs.forEach(function(item) {
-    var filePath = path.resolve(item, 'index.test.js');
+    var filePath = path.resolve(libPath, item, 'index.test.js');
     if (fs.existsSync(filePath)) {
       require(filePath);
     } else {
@@ -33,7 +35,11 @@ function filterDir(dirs, ignore) {
   var tmp = [],
     ignore = ignore.join('|') || '';
   dirs.forEach(function(item) {
-    if (!fs.statSync(item).isDirectory()) return;
+    var _path = path.resolve(libPath, item);
+    if (!fs.statSync(_path).isDirectory()) return;
+    if (!ignore) {
+      tmp.push(item);
+    }
     var regExp = new RegExp(ignore);
     if (!regExp.test(item)) {
       tmp.push(item);

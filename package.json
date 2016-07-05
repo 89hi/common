@@ -2,9 +2,11 @@
   "devDependencies": {
     "chai": "3.5.0",
     "colors": "^1.1.2",
+    "esformatter": "^0.9.5",
     "mocha": "2.5.3"
   },
   "scripts": {
-    "test": "./node_modules/mocha/bin/_mocha _test/"
+    "test": "npm run esformatter && ./node_modules/mocha/bin/_mocha test/",
+    "esformatter" : "./node_modules/esformatter/bin/esformatter -i lib/**/*.js"
   }
 }
