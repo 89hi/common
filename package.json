@@ -6,7 +6,6 @@
     "mocha": "2.5.3"
   },
   "scripts": {
-    "test": "npm run esformatter && ./node_modules/mocha/bin/_mocha test/",
-    "esformatter" : "./node_modules/esformatter/bin/esformatter -i lib/**/*.js"
+    "test": "sh test/test.sh"
   }
 }
