@@ -3,6 +3,7 @@
 ### Modules List（模块列表）
 - [ParseUrl](./lib/parseUrl) (将URL参数转化为JSON对象)
 - [DateUtil](./lib/dateUtil) (将日期值按格式转换)
+- [SortArray](./lib/sortArray) (数组排序以及抽取一定数量)
 
 ### How to contribute（如何贡献代码）
 
