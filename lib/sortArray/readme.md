@@ -1,6 +1,7 @@
-对数组进行排序 取指定个数
-
-arr:数组
-length: 需要获取的个数
-max: 默认为min（升序）排列,需要（降序）排列填写"Max"
- 
+## sortArray
+> a module for sort array and take out specify number
+### 使用方法:
+* arr:数组
+* length: 需要获取的个数
+* sortType: "-1" or "1"; "-1": 升序、"1": 降序
+---
