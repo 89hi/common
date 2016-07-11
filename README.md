@@ -1,8 +1,11 @@
 ## Code Modules（代码模块）
 
 ### Modules List（模块列表）
-- [ParseUrl](./lib/parseUrl) (将URL参数转化为JSON对象)
-- [DateFormatter](./lib/dateFormatter) [by:[ZadaWu](https://github.com/ZadaWu)]  (将日期转化为指定格式)
+
+| 名称      |     说明 |  贡献者 |
+| :-------- |:-------- | :--------: | 
+| [ParseUrl](./lib/parseUrl)    |  将URL参数转化为JSON对象  | 墨尘 | 
+| [DateFormatter](./lib/dateFormatter)   |   将日期转化为指定格式 | [ZadaWu](https://github.com/ZadaWu)|
 
 ### How to contribute（如何贡献代码）
 
