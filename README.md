@@ -2,7 +2,7 @@
 
 ### Modules List（模块列表）
 - [ParseUrl](./lib/parseUrl) (将URL参数转化为JSON对象)
-- [DateFormatter](./lib/dateFormatter) [ZadaWu](https://github.com/ZadaWu) (将日期转化为指定格式)
+- [DateFormatter](./lib/dateFormatter) [by:[ZadaWu](https://github.com/ZadaWu)]  (将日期转化为指定格式)
 
 ### How to contribute（如何贡献代码）
 
