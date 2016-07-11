@@ -2,7 +2,7 @@
 
 ### Modules List（模块列表）
 - [ParseUrl](./lib/parseUrl) (将URL参数转化为JSON对象)
-- [DateUtil](./lib/dateUtil) (将日期值按格式转换)
+- [Date](./lib/date) (将日期进行格式化处理／两个日期对比)
 
 ### How to contribute（如何贡献代码）
 
