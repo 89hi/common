@@ -9,7 +9,7 @@
 | [DateCompare](./lib/dateCompare)   |   两日期对比 | [ZadaWu](https://github.com/ZadaWu)|
 | [GetRandomStr](./lib/getRandomStr)   |   获取一个指定长度的随机字符串 | |
 | [CountDown](./lib/countDown)   |   可自动校准的倒计时 | |
-| [sortArray](./lib/sortArray)   |   对数组进行排序并获取指定个数 | |
+| [sortArray](./lib/sortArray)   |   对数组进行排序并获取指定个数 |[bl4ckn1ght](https://github.com/bl4ckn1ght) |
 
 ### How to contribute（如何贡献代码）
 
