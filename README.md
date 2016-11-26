@@ -2,6 +2,9 @@
 
 ### Modules List（模块列表）
 
+- [ParseUrl](./lib/parseUrl) (将URL参数转化为JSON对象)
+- [DateUtil](./lib/dateUtil) (将日期值按格式转换)
+
 | 名称      |     说明 |  贡献者 |
 | :-------- |:-------- | :--------: | 
 | [ParseUrl](./lib/parseUrl)    |  将URL参数转化为JSON对象  |    | 
